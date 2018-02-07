@@ -7,8 +7,16 @@ var tal = 1;
 var erDetRigtigt = false;
 var tekst = "Her er min tekst";
 
+
+//klister(+) 
+var and = " Mit navn er Anders, Anders And.";
+
 // kommentarer
 // regning 
+var ind = 500;
+var ud = 200;
+
+var tag = "<h1> nigga </h1>"
 // datoer
 // klistre strenge sammen
 // lister (scratch: data)
@@ -18,6 +26,8 @@ var tekst = "Her er min tekst";
 // objekter
 
 /* se resultatet af din kode i browserens udviklings-værktøj */
-console.log( "Tallet er lige nu: " + tal );
+console.log(ind - ud);
 
+
+document.write(ind + tag)
 // næste gang: events.
